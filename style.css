@@ -12,12 +12,22 @@
 	display: inline-block;
 	text-align: center;
 	position: relative;
+	margin; 0;
+	vertical-align: top;
+	background-color: lightblue;
 }
 
+.clear-box button{
+	background-color: lightgreen;
+	font-size: 75px;
+	margin-left: 276px;
+}	
+
 body {
-	font-size: 50px;
+	font-size: 150px;
 }
 
 h1 {
-	margin-right: 50px;
+	font-size: 50px;
+	text-align: center;
 }
