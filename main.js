@@ -1,44 +1,53 @@
-currentPlayer = 'x';
+var currentPlayer = 'x';
 
 $('.box1').on('click', function (event) {
-	console.log('box1');
+	// console.log(currentPlayer);
+	$('.box1').html(currentPlayer);
 });
 
 $('.box2').on('click', function (event) {
-	console.log('box2');
+	$('.box2').html(currentPlayer);
 
 });
 
 $('.box3').on('click', function (event) {
-	console.log('box3');
+	$('.box3').html(currentPlayer);
 
 });
 
 $('.box4').on('click', function (event) {
-	console.log('box4');
+	$('.box4').html(currentPlayer);
 
 });
 
 $('.box5').on('click', function (event) {
-	console.log('box5');
+	$('.box5').html(currentPlayer);
 
 });
 
 $('.box6').on('click', function (event) {
-	console.log('box6');
+	$('.box6').html(currentPlayer);
 
 });
 
 $('.box7').on('click', function (event) {
-	console.log('box7');
+	$('.box7').html(currentPlayer);
 
 });
 
 $('.box8').on('click', function (event) {
-	console.log('box8');
+	$('.box8').html(currentPlayer);
 
 });
 $('.box9').on('click', function (event) {
-	console.log('box9');
+	$('.box9').html(currentPlayer);
 
 });
+
+// function swapPlayers() {
+
+// }
+
+// function checkPattern {
+
+// }

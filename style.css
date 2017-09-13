@@ -2,6 +2,7 @@
 	width: 800px;
 	height: 800px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9{
@@ -9,5 +10,14 @@
 	height: 200px;
 	border: 3px solid black;
 	display: inline-block;
+	text-align: center;
+	position: relative;
 }
 
+body {
+	font-size: 50px;
+}
+
+h1 {
+	margin-right: 50px;
+}
