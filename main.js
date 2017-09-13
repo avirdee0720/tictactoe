@@ -129,6 +129,18 @@ if ($boxes.eq(0).html() === currentPlayer &&  // checks if boxes 1,2,3 match
 	    winner = currentPlayer;
 		alert('The winner is Player ' + winner);     
 	}
+
+	// else if ($boxes.eq(0).html() === currentPlayer && // checks if boxes 3,5,7 match
+ //    $boxes.eq(1).html() === currentPlayer && 
+ //    $boxes.eq(2).html() === currentPlayer &&
+ //    $boxes.eq(3).html() === currentPlayer && 
+ //    $boxes.eq(4).html() === currentPlayer &&
+ //    $boxes.eq(5).html() === currentPlayer && 
+ //    $boxes.eq(6).html() === currentPlayer &&
+ //    $boxes.eq(7).html() === currentPlayer && 
+ //    $boxes.eq(8).html() === currentPlayer) {
+	// 	alert('Draw');     
+	}
 }
 
 
