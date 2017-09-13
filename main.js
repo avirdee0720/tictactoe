@@ -74,7 +74,7 @@ function swapPlayers() {
 function checkWinner() {
 	var $boxes = $('.box');
 
-if ($boxes.eq(0).html() === currentPlayer &&  // checks if boxes 1,2,3 match
+	if ($boxes.eq(0).html() === currentPlayer &&  // checks if boxes 1,2,3 match
     $boxes.eq(1).html() === currentPlayer &&
     $boxes.eq(2).html() === currentPlayer) {
 	    winner = currentPlayer; 
@@ -130,7 +130,7 @@ if ($boxes.eq(0).html() === currentPlayer &&  // checks if boxes 1,2,3 match
 		alert('The winner is Player ' + winner);     
 	}
 
-	// else if ($boxes.eq(0).html() === currentPlayer && // checks if boxes 3,5,7 match
+	// else if ($boxes.eq(0).html() === currentPlayer && // checks all boxes are selected
  //    $boxes.eq(1).html() === currentPlayer && 
  //    $boxes.eq(2).html() === currentPlayer &&
  //    $boxes.eq(3).html() === currentPlayer && 
@@ -139,8 +139,8 @@ if ($boxes.eq(0).html() === currentPlayer &&  // checks if boxes 1,2,3 match
  //    $boxes.eq(6).html() === currentPlayer &&
  //    $boxes.eq(7).html() === currentPlayer && 
  //    $boxes.eq(8).html() === currentPlayer) {
-	// 	alert('Draw');     
-	}
+	// 	alert('Draw');
+	//}     
 }
 
 
