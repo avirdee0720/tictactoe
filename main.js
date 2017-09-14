@@ -90,10 +90,7 @@ function swapPlayers() {
 function checkWinner() {
 	var $boxes = $('.box');
 
-	// if (count === 9){
-	// 	alert('Draw');
-	// }
-
+	
 	if ($boxes.eq(0).html() === currentPlayer &&  // checks if boxes 1,2,3 match
     $boxes.eq(1).html() === currentPlayer &&
     $boxes.eq(2).html() === currentPlayer) {
@@ -118,49 +115,40 @@ function checkWinner() {
 	else if ($boxes.eq(0).html() === currentPlayer && // checks if boxes 1,4,7 match
     $boxes.eq(3).html() === currentPlayer && 
     $boxes.eq(6).html() === currentPlayer) {
-	    winner = currentPlayer;
+	    winner = currentPlayer; 
 		displayWinner(winner);
 	}
 
 	else if ($boxes.eq(1).html() === currentPlayer && // checks if boxes 2,5,8 match
     $boxes.eq(4).html() === currentPlayer && 
     $boxes.eq(7).html() === currentPlayer) {
-	    winner = currentPlayer;
+	    winner = currentPlayer; 
 		displayWinner(winner);
 	}
 
 	else if ($boxes.eq(2).html() === currentPlayer && // checks if boxes 3,6,9 match
     $boxes.eq(5).html() === currentPlayer && 
     $boxes.eq(8).html() === currentPlayer) {
-	    winner = currentPlayer;
+	    winner = currentPlayer; 
 		displayWinner(winner);
 	}
 
 	else if ($boxes.eq(0).html() === currentPlayer && // checks if boxes 1,5,9 match
     $boxes.eq(4).html() === currentPlayer && 
     $boxes.eq(8).html() === currentPlayer) {
-	    winner = currentPlayer;
+	    winner = currentPlayer; 
 		displayWinner(winner);
 	}
 
 	else if ($boxes.eq(2).html() === currentPlayer && // checks if boxes 3,5,7 match
     $boxes.eq(4).html() === currentPlayer && 
     $boxes.eq(6).html() === currentPlayer) {
-	    winner = currentPlayer;
-		displayWinner(winner);     
-	}
-
-	// else if ($boxes.eq(0).html() === currentPlayer && // checks all boxes are selected
- //    $boxes.eq(1).html() === currentPlayer && 
- //    $boxes.eq(2).html() === currentPlayer &&
- //    $boxes.eq(3).html() === currentPlayer && 
- //    $boxes.eq(4).html() === currentPlayer &&
- //    $boxes.eq(5).html() === currentPlayer && 
- //    $boxes.eq(6).html() === currentPlayer &&
- //    $boxes.eq(7).html() === currentPlayer && 
- //    $boxes.eq(8).html() === currentPlayer) {
-	// 	alert('Draw');
-	//}     
+	    winner = currentPlayer; 
+		displayWinner(winner);   
+	} 
+	else if (count === 9){
+		$('h1').html('Draw!');
+	 }    
 }
 
 
